@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "speciallist"
+version     = "0.0.1"
+description = "A special list tool"
+authors = [
+    {name = "Felix Wuehler", email="f.wuehler@hs-mannheim.de"},
+]
+readme = "readme.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+tests = ["pytest", "pytest-cov"]
+build = ["twine", "build"]
+
+
+[project.urls]
+Homepage = "https://github.com/BlueSpacePotato/speciallist"
+Issues = "https://github.com/BlueSpacePotato/speciallist/issues"
