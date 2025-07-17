@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name        = "spezialist"
-version     = "0.0.1"
+version     = "1.0.0"
 description = "A special list tool"
 authors = [
     {name = "Felix Wuehler", email="f.wuehler@hs-mannheim.de"},

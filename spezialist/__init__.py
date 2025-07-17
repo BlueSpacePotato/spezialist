@@ -2,4 +2,4 @@ from .functions import list_dir_without_dot, list_dir_without_dot_abs, list_dir_
 
 __all__ = ['list_dir_without_dot', 'list_dir_without_dot_abs', 'list_dir_without_ds', 'list_dir_without_ds_abs']
 
-__version__ = '0.0.1'
+__version__ = '1.0.0'
