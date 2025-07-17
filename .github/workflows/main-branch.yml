@@ -66,9 +66,9 @@ jobs:
         with:
           # GitHub token has write access for tags
           token: ${{ secrets.GIT_TOKEN }}
-          release-type: simple
-          # choose major/minor/patch based on your commit messages
-          bump-minor-pre-major: false
+          release-type: python
+          target-branch: main
+          skip-github-pull-request: true
 
       - name: Build distributions
         run: python -m build
