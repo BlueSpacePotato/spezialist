@@ -12,7 +12,7 @@ A lightweight Python utility for **special listing methods**. `spezialist` provi
 
 * 📁 **Clean Directory Listings**: Exclude system files like `.DS_Store` or hidden entries.
 * 🌐 **Absolute or Relative Paths**: Choose to return full filesystem paths or just filenames.
-*  **Pure Python, Zero Dependencies**: Only uses the standard library (`os` module).
+* 🐍 **Pure Python, Zero Dependencies**: Only uses the standard library (`os` module).
 * 🧩 **Modular Functions**: Import only what you need.
 
 ---
