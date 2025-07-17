@@ -1,8 +1,9 @@
-# spezialist
-
 ![PyPI Version](https://img.shields.io/pypi/v/spezialist)
 ![License](https://img.shields.io/pypi/l/spezialist)
 [![codecov](https://codecov.io/gh/BlueSpacePotato/spezialist/graph/badge.svg?token=MJJGOIWYUG)](https://codecov.io/gh/BlueSpacePotato/spezialist)
+
+
+# spezialist
 
 A lightweight Python utility for **special listing methods**. `spezialist` provides simple functions to filter directory listings, exclude unwanted or hidden files, and streamline specialized list processing tasks.
 
