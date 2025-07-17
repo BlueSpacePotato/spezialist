@@ -70,6 +70,11 @@ jobs:
           target-branch: main
           skip-github-pull-request: true
 
+      - name: Refresh workspace to the new version
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: Build distributions
         run: python -m build
 
