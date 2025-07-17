@@ -40,7 +40,6 @@ jobs:
           token: ${{ secrets.GIT_TOKEN }}
           release-type: python
           target-branch: main
-          skip-github-pull-request: true
 
       - name: Refresh workspace to bumped main
         run: |
